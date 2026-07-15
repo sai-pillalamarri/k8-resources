@@ -8,12 +8,12 @@ managedNodeGroups:
   - name: roboshop-dev-managed
     instanceTypes:
       [
-        "t3.medium",
-        "t3a.medium",
-        "m5.large",
-        "m5a.large",
-        "c5.large",
         "c5a.large",
+        "c5n.large",
+        "c5d.large",
+        "c5.large",
+        "c4.large",
+        "c3.large",
       ]
     spot: true
     desiredCapacity: 2
